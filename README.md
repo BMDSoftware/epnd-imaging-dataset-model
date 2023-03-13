@@ -1,2 +1,2 @@
-# epnd-imaging-dataset-model
+# EPND Imaging Dataset Model
 Imaging Dataset Model
