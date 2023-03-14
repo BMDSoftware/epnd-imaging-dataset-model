@@ -32,7 +32,7 @@ The following table represents the ideal DCAT properties to implement into the i
 
 <figure id="dcat-properties">
     <div>
-    <span id="dcat-properties-span" data-include-format="markdown" data-include="../figures/dcat-properties.md"></span>
+    <span id="dcat-properties-span" data-include-format="markdown" data-include="figures/dcat-properties.md"></span>
     </div>
     <figcaption>Proposed DCAT fields to be used. These have been tagged as recommended (R) or mandatory (M) fields.</figcaption>
 </figure>
