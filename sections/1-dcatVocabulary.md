@@ -257,7 +257,7 @@ specify metadata
 to further define the catalog
 
 ### Additional Classes
-The DCAT Vocabulary also contains, but is not limited to, the following classes.
+The DCAT Vocabulary also contains additional classes, explained briefly in the following subchapters.
 
 #### dcat:Relationship
 Way to provide information of relationship between resources
