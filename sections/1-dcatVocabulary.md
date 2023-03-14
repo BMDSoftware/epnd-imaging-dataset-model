@@ -1,8 +1,10 @@
 Introduction to DCAT
 --------------------
+
 The DCAT Vocabulary is an RDF Vocabulary that works with dataset catalogues. Each specified class and properties are vague and data-agnostic, allowing a large flexibility in implementation.
 
 Features include:
+
 * Oriented around catalogs and associated resources
   * Associate datasets, resources, ... into a common collection of
 metadata.
@@ -13,15 +15,16 @@ dataset context
   * Create catalogs for catalogs if necessary
 * Intended to be extended for finer contexts
   * Example: StatDCAT-AP
-    * https://github.com/SEMICeu/StatDCAT-AP
+    * <https://github.com/SEMICeu/StatDCAT-AP>
 
 * Full specification (version 3):
-  * https://www.w3.org/TR/vocab-dcat-3/#vocabulary-overview
-
+  * <https://www.w3.org/TR/vocab-dcat-3/#vocabulary-overview>
 
 Class Overview
 --------------
+
 While the DCAT Vocabulary diagram shows 8 interconnected classes, the vocabulary is centered around 3:
+
 * dcat:Resource
 * dcat:Dataset
 * dcat:Catalog
@@ -35,11 +38,12 @@ classDiagram
     Dataset --|> Resource
     Catalog --|> Dataset
 ```
+
 <figcaption>Main DCAT Hierarchy</figcaption>
 </figure>
 
-
 ### dcat:Resource
+
 Definition - “Resource published or curated by a single agent”
 
 <figure id="mermaid-dcat-resource">
@@ -83,10 +87,9 @@ classDiagram
       +prov:qualifiedAttribution
     }
 ```
+
 <figcaption>DCAT Resource class</figcaption>
 </figure>
-
-
 
 * Basic fields for a published
 resource
@@ -96,8 +99,8 @@ directly
 * All instances should belong
 to a dcat:Catalog instance
 
-
 ### dcat:Dataset
+
 Definition - “A collection of data,
 published or curated by a single
 agent, and available for access or
@@ -159,15 +162,12 @@ classDiagram
 
     Dataset --|> Resource
 ```
+
 <figcaption>DCAT Dataset class</figcaption>
 </figure>
 
-
 * Sub-class of *dcat:Resource*
 * Vague and data-agnostic, can be used in any dataset context;
-
-
-
 
 ### dcat:Catalog
 
@@ -236,9 +236,9 @@ classDiagram
     Dataset --|> Resource
     Catalog --|> Dataset
 ```
+
 <figcaption>DCAT Catalog class</figcaption>
 </figure>
-
 
 * Sub-class of dcat:Dataset
 * Collects instances of:
@@ -257,16 +257,26 @@ specify metadata
 to further define the catalog
 
 ### Additional Classes
+
 The DCAT Vocabulary also contains additional classes, explained briefly in the following subchapters.
 
 #### dcat:Relationship
+
 Way to provide information of relationship between resources
+
 #### dcat:DatasetSeries
+
 Groups datasets together via common characteristics
+
 #### dcat:Distribution
+
 A “specific representation” of a dataset (availability/distribution)
 Ex: Dataset represented in different languages, media-types, (...)
+
 #### dcat:DataService
+
 Specifies methods to access datasets or processing functions
+
 #### dcat:CatalogRecord
+
 Optional; Describes registration of a resource/dataset in a catalog

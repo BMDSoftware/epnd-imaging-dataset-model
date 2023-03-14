@@ -3,7 +3,9 @@
 After deliberation discussed in the prior section, we have defined a version 1.0 of the imaging model. Attached below is the model and it's properties:
 
 <figure style="width: 100%;">
-    <embed src="figures\imagingDatasetModelSilverV1.0\Model.html" style="width: 100%;">
+    <div>
+        <span id="imaging-dataset-model-silver" data-include-format="markdown" data-include="../figures\imaging-dataset-model-silver-v1.0.md"></span>
+    </div>
     <figcaption>The proposed v1.0 of the imaging dataset model: Dark green representes general fields that make use of DCAT properties, while the lighter green fields represents imaging fields.</figcaption>
 </figure>
 
