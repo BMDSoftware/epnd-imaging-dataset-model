@@ -13,3 +13,5 @@ With the adoption of this model, we targetted that researchers and institutions 
 </figure>
 
 This proposed model is meant to be as simple as possible, without resorting to more elaborate mappings of models, such as, openMINDS. Moreover, compatiblitly with other models was considered, and also DCAT was kept in mind, as this is a standard that is widely used in the field of data catalogues.
+
+See more  [Imaging Model JSON-LD](examples/dataset-simple.jsonld) format.
