@@ -1,0 +1,72 @@
+{
+    "@context": {
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "snomedct": "http://snomed.info/sct/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "dcat:Dataset",
+    "dcterms:identifier": "example-dataset-id",
+    "dcterms:title": "Example Dataset",
+    "dcterms:description": "This is an example dataset.",
+    "dcterms:publisher": {
+      "@type": "org:Organization",
+      "name": "Example Organization"
+    },
+    "dcat:contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "John Smith",
+      "hasEmail": "mailto:john.smith@example.org"
+    },
+    "dcterms:issued": "2023-03-18",
+    "dcterms:modified": "2023-03-18",
+    "dcat:version": "1.0",
+    "dcterms:temporal": {
+      "@type": "dcterms:PeriodOfTime",
+      "xsd:startDate": "2022-01-01",
+      "xsd:endDate": "2022-12-31"
+    },
+    "dcterms:spatial": {
+      "@type": "dcterms:Location",
+      "name": "Europe"
+    },
+    "dcterms:accessRights": "Public",
+    "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dcterms:isReferencedBy": {
+      "@id": "http://example.org/reference"
+    },
+    "numberOfSubjects": 100,
+    "modality": [
+      {
+        "@type": "snomedct:363679005",
+        "@value": "MRI"
+      },
+      {
+        "@type": "snomedct:363679005",
+        "@value": "PET"
+      }
+    ],
+    "bodyRegion": [
+      {
+        "@type": "snomedct:364402001",
+        "@value": "Brain"
+      },
+      {
+        "@type": "snomedct:364402001",
+        "@value": "Heart"
+      }
+    ],
+    "disease": [
+      {
+        "@type": "snomedct:64572001",
+        "@value": "Alzheimer's disease"
+      }
+    ],
+    "anonimization": "Pseudoanonimized",
+    "imageFormats": [
+      "TIFF",
+      "JPEG",
+      "DICOM"
+    ],
+    "imageAnnotations": {}
+  }
