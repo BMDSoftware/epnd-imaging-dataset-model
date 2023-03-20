@@ -1,5 +1,4 @@
-# Imaging Dataset Model - V1.0
-
+# Imaging Dataset Model
 
 After deliberation discussed in the prior section, and analyzing the most commonly filled fields in the EMIF Catalogue, EPND extensions and analyse other models, the team proposed a version 1.0 of the Imaging Dataset Model for the EPND project. The purpose of this model is to provide a standardized way of describing imaging datasets related to neurodegenerative diseases, with the aim of facilitating data sharing and collaboration in the field. 
 
@@ -14,4 +13,9 @@ With the adoption of this model, we targetted that researchers and institutions 
 
 This proposed model is meant to be as simple as possible, without resorting to more elaborate mappings of models, such as, openMINDS. Moreover, compatiblitly with other models was considered, and also DCAT was kept in mind, as this is a standard that is widely used in the field of data catalogues.
 
-See more  [Imaging Model JSON-LD](examples/dataset-simple.jsonld) format.
+See the following figure for the JSON-LD imaging model format.
+
+<figure style="width: 100%;">
+    <pre id="imaging-model-json-ld" data-include-format="text" data-include="examples/dataset-simple.jsonld"></pre>
+    <figcaption>The JSON-LD Imaging Model format.</figcaption>
+</figure>
