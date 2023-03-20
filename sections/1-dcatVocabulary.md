@@ -1,15 +1,17 @@
 Introduction to DCAT
 --------------------
 
-The DCAT Vocabulary is an RDF Vocabulary that works with dataset catalogues. Each specified class and properties are vague and data-agnostic, allowing a large flexibility in implementation.
+*Note*: This section in only to provide a general overview of the DCAT Vocabulary. For a more in-depth explanation, please refer to the DCAT Vocabulary specification.
+
+The DCAT Vocabulary is an RDF Vocabulary that works with dataset catalogues. Each specified class and properties are general and data-agnostic, allowing a large flexibility in implementation. Moreover, the vocabulary is intended to be extended for finer contexts, which can be a good target for the EPND project and any other health catalogues and records.
 
 Features include:
 
 * Oriented around catalogs and associated resources
-  * Associate datasets, resources, ... into a common collection of
+  * Associate datasets, resources, and others into a common collection of
 metadata.
 
-* Vague and agnostic class/properties – Can be used in any
+* General and agnostic class/properties – Can be used in any
 dataset context
 * Catalog grouping
   * Create catalogs for catalogs if necessary

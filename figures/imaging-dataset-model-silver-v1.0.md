@@ -20,5 +20,9 @@
 | Body Region        |                                       | "snomedct:364402001"   | ... 1..N / rdfs:Literal? / list of body regions    |
 | Disease(s)         |                                       | "snomedct:64572001"    | ... 1..N / rdfs:Literal? / list of diseases        |
 | Anonimization      |                                       |                        | "Anonimized, Pseudoanonimized, Identifiable names" |
-| Image formats      |                                       |                        | "TIFF, JPEG, DICOM, ..."                           |
+| Image formats      |                                       |                        | "TIFF, JPEG, DICOM, NIFTI, etc."                   |
 | Image annotations  |                                       |                        |
+| Image resolution   |                                       |                        |
+| Image quality      |                                       |                        |
+| Image analysis     |                                       |                        |
+| Image processing   |                                       |                        |
