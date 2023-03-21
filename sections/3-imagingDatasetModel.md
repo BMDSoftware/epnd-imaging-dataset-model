@@ -8,6 +8,9 @@ With the adoption of this model, we targetted that researchers and institutions 
 
 ## Model structure
 
+The table presented provides a list of properties relevant to the use of DCAT (Data Catalog Vocabulary) in describing datasets. It includes properties that are inherited from the DCAT Dataset class, as well as properties that have been created specifically for use in an application profile. For each property, the corresponding RDF property and the range of permissible values are provided. These details can be used to express the metadata in RDF format.
+
+
 <figure style="width: 100%;">
     <div>
         <span id="imaging-dataset-model-silver" data-include-format="markdown" data-include="figures/imaging-dataset-model-silver-v1.0.md"></span>
