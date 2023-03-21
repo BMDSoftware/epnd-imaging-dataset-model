@@ -1,5 +1,4 @@
-## Imaging Model Development
-
+## Methodology 
 
 ### Existing Dataset Models Review
 
