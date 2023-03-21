@@ -14,15 +14,15 @@
 | Access rights      | Resource.access rights                | dcterms:accessRights   |
 | License            | Resource.license                      | dcterms:license        |
 | Main reference     | Resource.is referenced by             | dcterms:isReferencedBy |
-| Number of subjects |                                       | rdfs:Literal?          |
-| Age range          |                                       |                        |
-| Modality           |                                       | "snomedct:363679005"   | ... 1..N / rdfs:Literal? / list of modality        |
-| Body Region        |                                       | "snomedct:364402001"   | ... 1..N / rdfs:Literal? / list of body regions    |
-| Disease(s)         |                                       | "snomedct:64572001"    | ... 1..N / rdfs:Literal? / list of diseases        |
-| Anonimization      |                                       |                        | "Anonimized, Pseudoanonimized, Identifiable names" |
-| Image formats      |                                       |                        | "TIFF, JPEG, DICOM, NIFTI, etc."                   |
-| Image annotations  |                                       |                        |
-| Image resolution   |                                       |                        |
-| Image quality      |                                       |                        |
-| Image analysis     |                                       |                        |
-| Image processing   |                                       |                        |
+| Number of subjects | N.A.                                  | rdfs:Literal          |
+| Age range          | N.A.                                  |                        |
+| Modality           | N.A.                                  | "snomedct:363679005"   | ... 1..N / rdfs:Literal / list of modality         |
+| Body Region        | N.A.                                  | "snomedct:364402001"   | ... 1..N / rdfs:Literal / list of body regions     |
+| Disease(s)         | N.A.                                  | "snomedct:64572001"    | ... 1..N / rdfs:Literal / list of diseases         |
+| Anonimization      | N.A.                                  | restricted             | "Anonimized, Pseudoanonimized, Identifiable names" |
+| Image formats      | N.A.                                  | restricted             | "TIFF, JPEG, DICOM, NIFTI, etc."                   |
+| Image annotations  | N.A.                                  | restricted             | "Yes, No"                                          |
+| Image resolution   | N.A.                                  | restricted             | List of resolutions (e.g. 512x                     |
+| Image quality      | N.A.                                  | restricted             | "High, Medium, Low"                                |
+| Image analysis     | N.A.                                  | restricted             | "Yes, No"                                          |
+| Image processing   | N.A.                                  | restricted             | "Yes, No"                                          |
