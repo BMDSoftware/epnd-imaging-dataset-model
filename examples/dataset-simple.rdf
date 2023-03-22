@@ -1,0 +1,33 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix snomedct: <http://snomed.info/sct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/dataset/example-dataset-id> a dcat:Dataset ;
+    dcterms:identifier "example-dataset-id" ;
+    dcterms:title "Example Dataset" ;
+    dcterms:description "This is an example dataset." ;
+    dcterms:publisher [ a org:Organization ;
+                        org:name "Example Organization" ] ;
+    dcat:contactPoint [ a vcard:Contact ;
+                        vcard:fn "John Smith" ;
+                        vcard:hasEmail <mailto:john.smith@example.org> ] ;
+    dcterms:issued "2023-03-18"^^xsd:date ;
+    dcterms:modified "2023-03-18"^^xsd:date ;
+    dcat:version "1.0" ;
+    dcterms:temporal [ a dcterms:PeriodOfTime ;                       xsd:startDate "2022-01-01"^^xsd:date ;                       xsd:endDate "2022-12-31"^^xsd:date ] ;
+    dcterms:spatial [ a dcterms:Location ;                      dcterms:name "Europe" ] ;
+    dcterms:accessRights "Public" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:isReferencedBy <http://example.org/reference> ;
+    dcterms:numberOfSubjects 100 ;
+    modality: [ a snomedct:363679005 ;                xsd:value "MRI" ] ,
+              [ a snomedct:363679005 ;                xsd:value "PET" ] ;
+    bodyRegion: [ a snomedct:364402001 ;                  xsd:value "Brain" ] ,
+                [ a snomedct:364402001 ;                  xsd:value "Heart" ] ;
+    disease: [ a snomedct:64572001 ;               xsd:value "Alzheimer's disease" ] ;
+    anonimization "Pseudoanonimized" ;
+    imageFormats "TIFF" , "JPEG" , "DICOM" ;
+    imageAnnotations [] .
