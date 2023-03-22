@@ -1,6 +1,6 @@
 ## Methodology 
 
-### Existing Dataset Models Review
+### Review of existing models
 
 
 An analysis of most filled fields in EMIF Catalogue was performed, in order to help establish required/optional fields.
@@ -41,3 +41,19 @@ The following table represents the ideal DCAT properties to implement into the i
     </div>
     <figcaption>Proposed DCAT fields to be used. These have been tagged as recommended (R) or mandatory (M) fields.</figcaption>
 </figure>
+
+
+### Compatibility
+
+To ensure compatibility between DCAT Imaging Model (as an Application Profile), it was followed established best practices, mainly:
+
+- Reuse existing vocabularies and ontologies whenever possible (dcat, SNOMED, etc).
+
+- Provide a clear and concise description of the model and its properties.
+
+- Define clear and concise requirements and constraints that do not conflict with existing DCAT specifications or other relevant standards (e.g. DICOM, etc).
+
+- Extensible format, allowing for the addition of new properties and classes (out of the box with DCAT).
+
+- Provide documentation and examples in different formats (e.g. RDF, JSON-LD, etc).
+
