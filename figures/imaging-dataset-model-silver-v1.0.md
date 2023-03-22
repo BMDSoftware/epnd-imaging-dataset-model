@@ -22,7 +22,7 @@
 | Anonimization      | N.A.                                  | restricted             | "Anonimized, Pseudoanonimized, Identifiable names" |
 | Image formats      | N.A.                                  | restricted             | "TIFF, JPEG, DICOM, NIFTI, etc."                   |
 | Image annotations  | N.A.                                  | restricted             | "Yes, No"                                          |
-| Image resolution   | N.A.                                  | restricted             | Resolutions (e.g. 512x512)                          |
+| Image resolution   | N.A.                                  | restricted             | Resolutions (e.g. 512x512)                         |
 | Image quality      | N.A.                                  | restricted             | "High, Medium, Low"                                |
 | Image analysis     | N.A.                                  | restricted             | "Yes, No"                                          |
 | Image processing   | N.A.                                  | restricted             | "Yes, No"                                          |
